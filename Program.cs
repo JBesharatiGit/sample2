@@ -1,4 +1,4 @@
-Ôªøusing System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +9,7 @@ namespace LottoRader
 {
     class Program
     {
+		//Adding test chang 7:03
         static void Main(string[] args)
         {
             ConsoleKeyInfo k=new ConsoleKeyInfo();
@@ -24,8 +25,8 @@ namespace LottoRader
                 name = "";
                 
                 Console.Write("Enter name and Family: ");
-                //L√§ser Namn bokstav efter bokstav och
-                //kontrollerar om anv√§ndaren skickar tom linje eller ej
+                //L‰ser Namn bokstav efter bokstav och
+                //kontrollerar om anv‰ndaren skickar tom linje eller ej
                 do
                 {
                     k = Console.ReadKey();
@@ -54,12 +55,12 @@ namespace LottoRader
 
             }
 
-            //Tar fram slumpm√§sigt lottorad
+            //Tar fram slumpm‰sigt lottorad
             Random randomValue = new Random();
             
             LottoPerson LPAdmin = new LottoPerson(11);
 
-            LPAdmin.Name = "R√§ttRad";
+            LPAdmin.Name = "R‰ttRad";
             for (int i = 0; i < LPAdmin.ArrLottoNo.Length; i++)
             {
                 int val = randomValue.Next(1, 101);
@@ -73,7 +74,7 @@ namespace LottoRader
             }
 
             LPAdmin.sort(11);
-            //l√§gger varje lottorad till list
+            //l‰gger varje lottorad till list
             
 
             //dataView.MyLottList.Select(dataView.MyLottList.ContainsKey==99);
