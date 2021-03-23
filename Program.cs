@@ -9,8 +9,6 @@ namespace LottoRader
 {
     class Program
     {
-		//Adding test chang 7:03
-           //Adding branch changgit status
         static void Main(string[] args)
         {
             ConsoleKeyInfo k=new ConsoleKeyInfo();
